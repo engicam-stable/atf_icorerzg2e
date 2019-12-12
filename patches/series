@@ -1,0 +1,12 @@
+0001-Fix-ld-error-unrecognized-option-with-old-binutils.patch -p1
+0002-plat-renesas-add-support-for-EK874-RZG2E.patch -p1
+0003-plat-renesas-bl2-add-ECC-support-for-DRAM.patch -p1
+0004-plat-renesas-add-support-for-HIHOPE-RZG2M.patch -p1
+0006-plat-renesas-rcar-qos-E3-mstat390.h-Modify-default-s.patch -p1
+0007-plat-renesas-rcar-qos-M3-mstat195.h-Modify-default-s.patch -p1
+0008-plat-rcar-M3-pfc-add-intial-pins-setting.patch -p1
+0009-plat-renesas-add-support-for-HIHOPE-RZG2N.patch -p1
+0010-plat-renesas-rcar-qos-M3N-mstat195.h-Modify-default-.patch -p1
+0011-plat-renesas-rcar-bl2_fusa-Add-option-to-enable-ECC-.patch -p1
+0012-plat-renesas-bl2_fusa-add-HIHOPE-RZG2M-ECC-support.patch -p1
+0013-plat-renesas-bl2_fusa-Add-ECC-support-for-HIHOPE-RZG.patch -p1
