@@ -5,7 +5,6 @@
 # SPDX-License-Identifier: BSD-3-Clause
 #
 
-
 # Process flags
 
 PLAT_INCLUDES		:=	-Iinclude/common/tbbr				\
@@ -351,19 +350,19 @@ endif
 
 # Process RCAR_DRAM_LPDDR4_MEMCONF flag
 ifndef RCAR_DRAM_LPDDR4_MEMCONF
-RCAR_DRAM_LPDDR4_MEMCONF :=1
+RCAR_DRAM_LPDDR4_MEMCONF :=0
 endif
 $(eval $(call add_define,RCAR_DRAM_LPDDR4_MEMCONF))
 
 # Process RCAR_DRAM_DDR3L_MEMCONF flag
 ifndef RCAR_DRAM_DDR3L_MEMCONF
-RCAR_DRAM_DDR3L_MEMCONF :=1
+RCAR_DRAM_DDR3L_MEMCONF :=0
 endif
 $(eval $(call add_define,RCAR_DRAM_DDR3L_MEMCONF))
 
 # Process RCAR_DRAM_DDR3L_MEMDUAL flag
 ifndef RCAR_DRAM_DDR3L_MEMDUAL
-RCAR_DRAM_DDR3L_MEMDUAL :=1
+RCAR_DRAM_DDR3L_MEMDUAL :=0
 endif
 $(eval $(call add_define,RCAR_DRAM_DDR3L_MEMDUAL))
 
